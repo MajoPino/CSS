@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #dbc7ad;
+}
+.anchorHome{
+    background-color: #dbc7ad;
+    text-decoration: none;
+    color: #4e2872;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 35px;
+    font-family: "Faster One", system-ui;
+    font-weight: 20;
+    font-style: normal;
+}
+
+main{
+    background-color: #64533b;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    font-family: "AR One Sans", sans-serif;
+
+}
+
+h2{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.coro{
+    display: flex;
+    gap: 140px;
+    margin-top: 30px;
+    justify-content: left;
+    background-color: #f0b71c;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #ffc41e, #d8a519);
+    box-shadow:  5px 5px 0px #cc9c18,
+             -5px -5px 0px #ffd220;
+    color: #4d2602;
+    border-radius: 10px;
+    & h3{
+        margin-left: 7px;
+    }
+}
+.prim-estrofa{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    justify-content: left;
+    background-color: #1755b3;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #195bc0, #154da1);
+    border-radius: 10px;
+    background: linear-gradient(145deg, #195bc0, #154da1);
+    box-shadow:  5px 5px 0px #144898,
+                 -5px -5px 0px #3d83eb;box-shadow:  5px 5px 0px #144898,
+             -5px -5px 0px #4e86da;
+    color: #0b0b29;
+    border-radius: 10px;
+    & h3{
+        margin-left: 7px;
+    }
+}
+.sec-estrofa{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    justify-content: left;
+    background-color: #cf2a1e;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #dd2d20, #ba261b);
+    box-shadow:  5px 5px 0px #b0241a,
+             -5px -5px 0px #f55e53;
+    color: #1f0707;
+    border-radius: 10px;
+    & h3{
+        margin-left: 7px;
+    }
+}
+.ter-estrofa{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    justify-content: left;
+    background-color: #f0b71c;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #ffc41e, #d8a519);
+    box-shadow:  5px 5px 0px #cc9c18,
+             -5px -5px 0px #ffd220;
+    color: #4d2602;
+    border-radius: 10px;
+}
