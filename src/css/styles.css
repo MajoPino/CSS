@@ -1,0 +1,12 @@
+body{
+    background-color: #dbc7ad;
+}
+h1{
+    color: #4e2872;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 70px;
+    font-family: "Faster One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
