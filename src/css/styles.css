@@ -10,3 +10,26 @@ h1{
     font-weight: 400;
     font-style: normal;
 }
+/*p{
+    color: #2e1644;
+}*/
+main{
+    font-family: "AR One Sans", sans-serif;
+}
+h2{
+    font-weight: bolder;
+    font-style: oblique;
+    color: #0f3369;
+}
+#parrafoUno{
+    color: #fc3f1e;
+}
+#parrafoDos{
+    color: #e91efc;
+}
+#parrafoTres{
+    color: #166962;
+}
+.transformar-texto-en-mayusculas{
+    text-transform: uppercase;
+}
