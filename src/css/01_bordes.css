@@ -1,0 +1,54 @@
+#parrafo-prueba{
+    background-color: black;
+    color: white;
+    border-style: solid;
+    border-color: #1ddcbf;
+    border-width: 10px;
+    border-top-width: 50px;
+    border-left-width: 3px;
+    border-bottom-width: 17px;
+    border-top-color: #1935a4;
+}
+p.dotted {
+    border-style: dotted;
+}
+
+p.dashed {
+    border-style: dashed;
+}
+
+p.solid {
+    border-style: solid;
+}
+
+p.double {
+    border-style: double;
+}
+
+p.groove {
+    border-style: groove;
+}
+
+p.ridge {
+    border-style: ridge;
+}
+
+p.inset {
+    border-style: inset;
+}
+
+p.outset {
+    border-style: outset;
+}
+
+p.none {
+    border-style: none;
+}
+
+p.hidden {
+    border-style: hidden;
+}
+
+p.mix {
+    border-style: dotted dashed solid double;
+}
