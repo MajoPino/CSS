@@ -1,6 +1,7 @@
 #parrafo-prueba{
     background-color: black;
     color: white;
+    border-radius: 20px;
     border-style: solid;
     border-color: #1ddcbf;
     border-width: 10px;
@@ -51,4 +52,73 @@ p.hidden {
 
 p.mix {
     border-style: dotted dashed solid double;
+}
+/* La propiedad border-width con tamaño especifico*/
+p.uno {
+    border-style: solid;
+    border-width: 5px 20px;
+    /* 5px top and bottom, 20px on the sides */
+}
+
+p.dos {
+    border-style: solid;
+    border-width: 20px 5px;
+    /* 20px top and bottom, 5px on the sides */
+}
+
+p.tres {
+    border-style: solid;
+    border-width: 25px 10px 4px 35px;
+    /* 25px top, 10px right, 4px bottom and 35px left */
+}
+#galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img-one{
+    & img{
+        border: solid #137d74;
+        border-radius: 15px;
+        border-top-color: #2bd814;
+        border-left-color: #2bd814;
+        border-width: 15px 30px 4px 20px;
+        height: 250px;
+        width: 180px;
+    }
+}
+.img-two{
+    & img{
+        border: 20px dashed #cd1010;
+        border-right-color: #2fe5f2;
+        border-bottom-color: #2fe5f2;
+        border-width: 25px 4px 10px 40px;
+        height: 250px;
+        width: 220px;
+    }
+}
+.img-three{
+    & img{
+        border: 20px ridge #1249af;
+        border-radius: 12px;
+        border-width: 50px 12px 65px 3px;
+        height: 250px;
+        width: 320px;
+    }
+}
+.img-four{
+    & img{
+        border: 20px double #8fb6bd;
+        border-width: 3px 20px 40px 12px;
+        height: 250px;
+        width: 180px;
+    }
+}
+.img-five{
+    & img{
+        border: 20px dotted #18830a;
+        border-width: 12px 1px 9px 20px;
+        height: 250px;
+        width: 180px;
+    }
 }
